@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="" content="">
+        <title>CrickLuck</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    </head>
+    <body>
+        <div class="main-div">
+            <div class="lines lines-one"></div>
+            <div class="lines lines-two"></div>
+            <div class="lines lines-three"></div>
+            <div class="lines lines-four"></div>
+            
+            <p class="items items-six">6</p>
+            <p class="items items-four">4</p>
+            <p class="items items-three">3</p>
+            <p class="items items-two">2</p>
+            <p class="items items-one">1</p>
+            <p class="items items-wicket1">W</p>
+            <p class="items items-wicket2">W</p>
+            <p class="items items-wicket3">W</p>
+            
+            
+            <div class="sub-div">
+                <i class="fas fa-arrow-circle-right" id="wheel"></i>
+            </div>
+        </div>
+        <button class="button" type="submit" onclick="rotate()">Play</button>
+        <div class="main-display">
+            <div class="scores">
+                <p class="scores-para" id="runs">Run:0</p>
+                <p class="scores-para" id="wickets">Wicket:0</p>
+            </div>
+            <div class="dis-message" id="dis-message">
+                <h4>Tap Play button</h4>
+            </div>
+        </div>
+        <button class="button reset" type="submit" onclick="reset()">Start New Game</button>
+    
+    <footer>
+        ©Nahid_Reza
+    </footer>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
