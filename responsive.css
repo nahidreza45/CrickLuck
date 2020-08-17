@@ -64,22 +64,34 @@
         bottom: 145px;
     }
     .main-display{
-        height: 275px;
-        margin: 60px auto 40px;
+        height: auto;
+        margin: 50px auto;
         border-radius: 25px;
-        padding: 25px;
+        padding: 20px 20px -10px;
         border-width: 5px;
+    }
+    .scores{
+        border-radius: 15px;
+        border-width: 5px;
+        padding: 8px;
     }
     .scores-para{
         font-size: 50px;
-        border-width: 5px;
-        padding: 15px;
+        padding: 5px;
         border-radius: 10px;
     }
+    .turn-message{
+        margin: 15px auto 0;
+        font-size: 35px;
+    }
     .dis-message{
-        margin: 125px 0;
+        margin: 125px 0 10px;
         padding: 15px;
         font-size: 45px;
+    }
+    #xtra-msg{
+        margin: 10px 0 -5px;
+        font-size: 35px;
     }
     .reset{
         width: 80%;
@@ -87,6 +99,34 @@
     }
     footer{
         font-size: 35px;
+    }
+    .all-input{
+        margin: 40px auto;
+    }
+    .all-input input{
+        font-size: 55px;
+        margin: 15px 0;
+        padding: 15px;
+        border-width: 6px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px #636363;
+    }
+    .font-pg{
+        margin-bottom: 100px;
+        padding: 25px;
+        font-size: 40px;
+    }
+    .font-pg-heading{
+        font-size: 100px;
+    }
+    .ul-li{
+        margin: 40px 55px;
+    }
+    .ul-li ul{
+        padding: 16px;
+    }
+    .ul-li ul li{
+        margin: 25px 0;
     }
     
     
