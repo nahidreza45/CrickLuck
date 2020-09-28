@@ -209,7 +209,7 @@ function rotate() {
             
         }else{
             P1Turn = false;
-            disTurnMessage.innerHTML=nameP1Org+" is playing....";
+            disTurnMessage.innerHTML=nameP2Org+" is playing....";
             setTimeout(function() {
                 disTurnMessage.innerHTML="Now it is "+nameP2Org+"'s turn..";
             }, 3000);
